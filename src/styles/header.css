@@ -2,7 +2,7 @@
 
 header {
     width: 100%; /* Largura*/
-    padding: 28px 8%;
+    padding: 30px 8%;
     position: sticky;
     top: 0;
     background-color: var(--color-primary-1);
@@ -17,9 +17,8 @@ header {
 }
 
 .nav_logo {
-    font-size: 24px;
-    color: var(--color-primary-6);
-    display: flex;
+    font-size: 15px;
+    color: var(--color-primaria-6);
 }
 
 #nav_list{
@@ -38,7 +37,7 @@ header {
 /*esse é o risco que fica em baixo de inicio*/
 .nav-item.active a {
     color: var(--color-neutral-9);
-    border-bottom: 3px solid var(--color-primary-4);
+    border-bottom: 3px solid var(--color-primaria-4);
 }
 
 #mobile_btn {
