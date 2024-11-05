@@ -16,9 +16,10 @@ header {
     justify-content: space-between;
 }
 
-#nav_logo {
+.nav_logo {
     font-size: 24px;
     color: var(--color-primary-6);
+    display: flex;
 }
 
 #nav_list{
