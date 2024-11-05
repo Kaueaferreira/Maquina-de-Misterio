@@ -5,7 +5,7 @@ header {
     padding: 30px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1);
+    background-color: var(--color-primaria-1);
     z-index: 3;
 }
 
@@ -64,22 +64,31 @@ header {
         cursor: pointer;
     }
     
-    #mobile_menu.active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    #mobile_menu.active  {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 15px;
     }
+
+    #mobile_menu.active button {
+        position: relative;
+        top: 20px;
+    }
+    
 
     #mobile_nav_list{
         display:flex;
         flex-direction: column;
         gap: 12px;
         margin: 12px 0px;
+        
     }
 
     #mobile_nav_list .nav-list{
         list-style: none;
         text-align: center;
+
     }
 
 
