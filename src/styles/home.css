@@ -35,7 +35,8 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-9);
+    font-size: 18px;
+    color: var(--color-neutral-2);
 }
 
 #phone_button {
@@ -98,11 +99,10 @@ phone_button button{
         text-align: center;
         align-items: center;
     }
-
-}
-
-@media screen and (max-width: 450px){
-    #phone_buttob button{
-        display: none;
+    #cta .title{
+        font-size: 3rem;
+        color: var(--color-neutral-9);
     }
+
 }
+
