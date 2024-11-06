@@ -1,5 +1,21 @@
 @import url(../import/import.css);
 
 #sobre{
-    display
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+
+#cta-2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5px;
+}
+
+#cta-2 .title-2{
+    font-size: 4rem;
+    color: var(--color-neutral-9);
 }
