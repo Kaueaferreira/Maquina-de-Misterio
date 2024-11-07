@@ -33,6 +33,10 @@
     margin-bottom: 50px;
 }
 
+#des_list .strong-blue{
+    color: var(--color-primaria-4);
+}
+
 #cta-2 ul {
     margin-top: -20px;
     list-style: none;
@@ -63,10 +67,33 @@
 .shape-2{
     background-color: var(--color-primaria-2);
     width: 38%;
-    height: 55%;
+    height: 50%;
     position: absolute;
     border-radius: 0% 40% 30% 0%;
     left: 0;
     right: 50%; /* Opcional: se quiser adicionar controle sobre o deslocamento à esquerda */
     z-index: 1;
+}
+
+@media screen and (max-width: 1310px){
+    #sobre{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner-2,
+    #banner-2 img,
+    #sobre .shape-2{
+        display: none;
+    }
+    #cta-2{
+        padding-top: 150px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #cta-2 .title{
+        font-size: 3rem;
+        color: var(--color-neutral-9);
+    }
 }
