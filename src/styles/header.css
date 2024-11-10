@@ -29,7 +29,7 @@ header {
 #nav_list{
     display: flex;
     list-style: none;
-    gap: 48px
+    gap: 30px
 }
 
 .nav-item a {
