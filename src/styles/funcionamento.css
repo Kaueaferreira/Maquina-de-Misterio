@@ -1,0 +1,24 @@
+@import url(../import/import.css);
+
+#funcionamento {
+    margin-top: 30px;
+    display: flex;
+    min-height: calc(100vh-91px);
+    position: relative;
+}
+
+.title3 {
+    font-size: 4.9rem;
+    color: var(--color-neutral-9);
+}
+
+.title3 span {
+    color: var(--color-primaria-4);
+}
+
+.description-3 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: var(--color-neutral-9);
+}

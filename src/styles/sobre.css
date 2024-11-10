@@ -1,40 +1,40 @@
-@import url(../import/import.css);
-
-#sobre{
+#sobre {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center; /* Alinha os itens verticalmente */
     min-height: 100vh;
+    padding: 70px; /* Ajuste o padding se necessário */
     position: relative;
+    margin: 0 auto;
 }
 
 #cta-2 {
-    width: 60%;
+    width: 50%; /* Ajuste conforme necessário */
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: -100px;
+    gap: 20px;
+    right: 0%;
+    padding-left: 200px; /* Espaço entre a imagem e o texto */
 }
-
 #cta-2 .title-2{
     font-size: 4rem;
     color: var(--color-neutral-9);
 }
 
-#cta-2 .sub-title{
+#cta-2 .sub-title2{
     font-size: 2rem;
     color: var(--color-neutral-9);
     margin-bottom: 10px;
 }
 
 #cta-2  .description {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: -20px;
     margin-bottom: 50px;
 }
 
 #des_list .strong-blue{
     color: var(--color-primaria-4);
+    font-size: 1.5rem;
 }
 
 #cta-2 ul {
@@ -43,36 +43,32 @@
 }
 
 #cta-2 li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 10px;
 }
 
+
 #banner-2 {
-    position: relative;
-    bottom: 600px;
-    right: 65%;
+    width: 40%; /* Ajuste o tamanho da imagem conforme necessário */
     display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 1000px;
-    height: 680px;
+    justify-content: flex-start; /* Alinha a imagem à esquerda */
     z-index: 2;
 }
 
 #banner-2 img {
-    height: 72%;
-    width: fit-content;
+    width: 100%; /* A imagem vai ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 .shape-2{
     background-color: var(--color-primaria-2);
-    width: 38%;
-    height: 50%;
+    width: 45%;
+    height: 890px;
     position: absolute;
     border-radius: 0% 40% 30% 0%;
     left: 0%;
     right: 100%;
-    margin-top: -100px; 
+    margin-top: px; 
     z-index: 1;
 }
 
@@ -88,13 +84,19 @@
         display: none;
     }
     #cta-2{
-        padding-top: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 160px;
         width: 100%;
         text-align: center;
         align-items: center;
     }
-    #cta-2 .title{
+    #cta-2 .title-2{
         font-size: 3rem;
+        color: var(--color-neutral-9);
+    }
+
+    #cta-2 .sub-title2{
         color: var(--color-neutral-9);
     }
 }
