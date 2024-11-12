@@ -1,12 +1,13 @@
 @import url(../import/import.css);
 
 :root {
-    --color-primaria-1: #d7dfff;
-    --color-primaria-2: #8ea8ff;
-    --color-primaria-3: #0d62ff;
-    --color-primaria-4: #2f20fe;
-    --color-primaria-5: #3639f4;
+    --color-primaria-1: #e4e7f6;
+    --color-primaria-2: #ccd8ff;
+    --color-primaria-3: #6599f9;
+    --color-primaria-4: #5448f8;
+    --color-primaria-5: #4c4ec7;
     --color-primaria-6: #1612f8;
+    --color-neutral-8: #434343;
     --color-neutral-9: #1d1d1d;
     --color-neutral-2: #c7cde9;
 }
