@@ -112,6 +112,10 @@
             <div id="banner-2">
                 <img src="src/images/scooby-doo6.png" alt="Imagem Scooby-Doo">
             </div>
+
+            <div id="banner-mini2">
+                <img src="src/images/" alt="">
+            </div>
             
             <div id="cta-2">
                 <h1 class="title-2">Sobre o Projeto</h1>
@@ -134,34 +138,64 @@
                 <h1 class="title3">Funcionamento do
                 <span>Carrinho</span></h1>
                 <p class="description-3">A principal tarefa do carrinho é navegar sozinho, evitando obstáculos enquanto se move. Para isso, o Arduino será responsável por controlar os sensores (para detectar obstáculos) e os motores (para movimentar o carrinho).</p>
+                
+                <div class="div-lateral">
+                    <img src="" alt="">
+                    <div class="div-conteudo">
+                        <h2 class="sub-title3">Sensores de Distância (Ultrassônicos):</h2>
+                        <ul>
+                            <li>O Arduino usa sensores ultrassônicos para medir a distância até os objetos à frente do carrinho.</li>
+                            <li>Esses sensores emitem ondas sonoras e, ao perceberem o retorno dessas ondas, calculam a distância até o objeto mais próximo.</li>
+                            <li>O sensor envia essa informação de distância para o Arduino.</li>
+                        </ul>
+                    </div>
+                </div>
 
-                <h2 class="sub-title3">Sensores de Distância (Ultrassônicos):</h2>
-                <ul>
-                    <li>O Arduino usa sensores ultrassônicos para medir a distância até os objetos à frente do carrinho.</li>
-                    <li>Esses sensores emitem ondas sonoras e, ao perceberem o retorno dessas ondas, calculam a distância até o objeto mais próximo.</li>
-                    <li>O sensor envia essa informação de distância para o Arduino.</li>
-                </ul>
-                <h2 class="sub-title3">Analisando as informações dos Sensores:</h2>
-                <ul>
-                    <li>O Arduino constantemente lê os valores dos sensores ultrassônicos.</li>
-                    <li>Se o sensor detecta que um obstáculo está muito perto (por exemplo, a menos de 10 cm), isso significa que o carrinho está prestes a colidir com algo.</li>
-                    <li>A partir daí, o Arduino toma uma decisão: parar, retroceder ou desviar.</li>
-                </ul>
-                <h2 class="sub-title3">Controle dos Motores:</h2>
-                <ul>
-                    <li>O Arduino envia comandos para os motores DC para movimentar o carrinho conforme a necessidade.</li>
-                    <li>Se não houver obstáculos: o Arduino envia um comando para os motores avançarem e o carrinho continua sua trajetória.</li>
-                    <li>Se houver um obstáculo muito perto: o Arduino pode emitir comandos para os motores pararem ou retrocederem.</li>
-                    <li>Se houver obstáculos de lado: o Arduino pode acionar os motores para girar o carrinho e desviar do obstáculo.</li>
-                </ul>
-                <h2 class="sub-title3">Lógica de Decisão:</h2>
-                <p>A lógica que faz o carrinho tomar essas decisões é programada no código do Arduino. A programação pode ser feita de forma simples, usando condições (if/else) e loops para fazer o carrinho verificar constantemente os sensores e executar as ações.</p>
-                <h2 class="sub-title3">Comandos do Carrinho:</h2>
-                <ul>
-                    <li>Avanço: Para mover o carrinho para frente.</li>
-                    <li>Retrocesso: Para fazer o carrinho dar ré, evitando o obstáculo.</li>
-                    <li>Giro: Para desviar, girando o carrinho para a esquerda ou direita.</li>
-                </ul>
+                <div class="div-lateral">
+                    <img src="" alt="">
+                    <div class="div-conteudo">
+                        <h2 class="sub-title3">Analisando as informações dos Sensores:</h2>
+                        <ul>
+                            <li>O Arduino constantemente lê os valores dos sensores ultrassônicos.</li>
+                            <li>Se o sensor detecta que um obstáculo está muito perto (por exemplo, a menos de 10 cm), isso significa que o carrinho está prestes a colidir com algo.</li>
+                            <li>A partir daí, o Arduino toma uma decisão: parar, retroceder ou desviar.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="div-lateral">
+                    <img src="" alt="">
+                    <div class="div-conteudo">
+                        <h2 class="sub-title3">Controle dos Motores:</h2>
+                        <ul>
+                            <li>O Arduino envia comandos para os motores DC para movimentar o carrinho conforme a necessidade.</li>
+                            <li>Se não houver obstáculos: o Arduino envia um comando para os motores avançarem e o carrinho continua sua trajetória.</li>
+                            <li>Se houver um obstáculo muito perto: o Arduino pode emitir comandos para os motores pararem ou retrocederem.</li>
+                            <li>Se houver obstáculos de lado: o Arduino pode acionar os motores para girar o carrinho e desviar do obstáculo.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="div-lateral">
+                    <img src="" alt="">
+                    <div class="div-conteudo">
+                        <h2 class="sub-title3">Lógica de Decisão:</h2>
+                        <p>A lógica que faz o carrinho tomar essas decisões é programada no código do Arduino. A programação pode ser feita de forma simples, usando condições (if/else) e loops para fazer o carrinho verificar constantemente os sensores e executar as ações.</p>
+                    </div>
+                </div>
+
+                <div class="div-lateral">
+                    <img src="" alt="">
+                    <div class="div-conteudo">
+                        <h2 class="sub-title3">Comandos do Carrinho:</h2>
+                        <ul>
+                            <li>Avanço: Para mover o carrinho para frente.</li>
+                            <li>Retrocesso: Para fazer o carrinho dar ré, evitando o obstáculo.</li>
+                            <li>Giro: Para desviar, girando o carrinho para a esquerda ou direita.</li>
+                        </ul>
+                    </div>
+                </div>
+                
             </div>
         </section>
 
@@ -175,7 +209,7 @@
             <section id="equipes">
                 <div id="equipe-membros">
                     <div class="imagem-aolado">
-                        <img src="src/images/turma3.png" alt="">
+                        <img src="src/images/turma4.png" alt="">
                         <div class="membro">
                             <h3 class="membros">Kauê Arcanjo</h3>
                             <ul> <li class="funcao-equipe"> <strong>Função: </strong>Crianção do Site</li></ul>
