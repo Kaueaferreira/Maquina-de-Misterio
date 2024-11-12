@@ -38,3 +38,9 @@ section {
 .btn-default:hover {
     background-color: var(--color-primaria-2);
 }
+
+.section-title{
+    color: var(--color-primaria-6);
+    font-size: 1.5633em;
+}
+

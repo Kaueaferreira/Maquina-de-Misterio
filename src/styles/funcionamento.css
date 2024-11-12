@@ -11,7 +11,7 @@
 
 .title3 {
     padding-top: 120px;
-    font-size: 4.9rem;
+    font-size: 4.5rem;
     color: var(--color-neutral-9);
     text-align: center;
 }
@@ -21,7 +21,7 @@
 }
 
 .description-3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding-top: 40px;
     padding-bottom: 20px;
     color: var(--color-neutral-9);
@@ -29,7 +29,7 @@
 }
 
 .sub-title3{
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
 }
@@ -41,7 +41,7 @@
 }
 
 .cta-3 li, p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 5px;
 }
 
