@@ -44,6 +44,11 @@ header {
     gap: 10px;
 }
 
+.btn-espacamento{
+    display: flex;
+    gap: 24px
+}
+
 
 
 /*esse é o risco que fica em baixo de inicio*/

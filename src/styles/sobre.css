@@ -7,6 +7,11 @@
     margin: 0 auto;
 }
 
+#banner2-min, #banner2-min img,
+.shape2-min{
+    display: none;
+}
+
 #cta-2 {
     width: 50%; /* Ajuste conforme necessário */
     display: flex;
@@ -109,5 +114,28 @@
     #cta-2 li {
         font-size: 1.2rem;
         padding: 10px;
+    }
+
+    #banner2-min, #banner2-min img{
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+
+    .shape2-min {
+        display: block;
+        background-color: var(--color-primaria-2);
+        width: 70%;
+        height: 400px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 40% 30% 20% 20%;
+        z-index: 1;
+        max-width: 1000px;
+        max-height: 800px;
     }
 }
