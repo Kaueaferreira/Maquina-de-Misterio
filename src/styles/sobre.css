@@ -2,13 +2,14 @@
     display: flex;
     align-items: center; /* Alinha os itens verticalmente */
     min-height: 100vh;
-    padding: 70px; /* Ajuste o padding se necessário */
+    padding: 0px; /* Ajuste o padding se necessário */
+    padding-bottom: 50px;
     position: relative;
     margin: 0 auto;
 }
 
 #banner2-min, #banner2-min img,
-.shape2-min{
+.shape2-min, .shape2-min2{
     display: none;
 }
 
@@ -18,7 +19,7 @@
     flex-direction: column;
     gap: 20px;
     right: 0%;
-    padding-left: 200px; /* Espaço entre a imagem e o texto */
+    padding-left: 160px; /* Espaço entre a imagem e o texto */
 }
 #cta-2 .title-2{
     font-size: 4rem;
@@ -85,9 +86,14 @@
 
     #banner-2,
     #banner-2 img,
-    #sobre .shape-2{
+    #sobre .shape-2, .shape2-min2{
         display: none;
     }
+
+    #sobre{
+        padding: 70px;
+    }
+
     #cta-2{
         margin: 0 auto;
         padding-left: 1px;
@@ -130,12 +136,74 @@
         width: 70%;
         height: 400px;
         position: absolute;
-        top: 70%;
+        top: 72%;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 40% 30% 20% 20%;
         z-index: 1;
         max-width: 1000px;
         max-height: 800px;
+    }
+
+
+}
+
+@media screen and (max-width: 760px) {
+    #sobre .shape-2, .shape2-min{
+        display: none;
+    }
+
+    #cta-2{
+        padding: 70px;
+    }
+
+    .shape2-min2 {
+        display: block;
+        background-color: var(--color-primaria-2);
+        width: 90%;
+        height: 350px;
+        padding: 0;
+        position: absolute;
+        top: 74%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 40% 30% 20% 20%;
+        z-index: 1;
+        max-width: 1000px;
+        max-height: 400px;
+    }
+
+    #sobre{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #sobre .shape-2, .shape2-min{
+        display: none;
+    }
+
+    #cta-2{
+        padding: 70px;
+    }
+
+    .shape2-min2 {
+        display: block;
+        background-color: var(--color-primaria-2);
+        width: 77%;
+        height: 300px;
+        padding: 0;
+        position: absolute;
+        top: 79%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 40% 30% 20% 20%;
+        z-index: 1;
+        max-width: 1000px;
+        max-height: 400px;
+    }
+
+    #sobre{
+        padding: 0;
     }
 }

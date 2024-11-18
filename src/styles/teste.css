@@ -1,0 +1,72 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; /* Limita a largura total */
+    max-width: 1200px; /* Limita o tamanho máximo */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%; /* Ajusta a largura da imagem */
+    height: auto;
+    object-fit: cover; /* Garante que a imagem não distorça */
+    max-height: 300px; /* Limita a altura das imagens */
+    border-radius: 8px;
+}
+
+.text {
+    width: 45%; /* Define a largura do texto */
+    padding: 10px;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+figcaption {
+    text-align: center; /* Alinha o texto da legenda */
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column-reverse; /* Inverte a ordem: texto fica acima da imagem */
+        align-items: center; /* Centraliza o conteúdo */
+    }
+
+    .item img {
+        width: 80%; /* Ajusta a largura da imagem em telas menores */
+        max-height: 250px; /* Ajusta a altura da imagem */
+        margin-top: 10px; /* Adiciona espaço entre o texto e a imagem */
+        margin-left: auto;
+        margin-right: auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    .text {
+        width: 80%; /* Ajusta a largura do texto em telas menores */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    figcaption {
+        font-size: 12px; /* Ajusta o tamanho da legenda em telas menores */
+    }
+}

@@ -2,7 +2,7 @@
 
 header {
     width: 100%; /* Largura*/
-    padding: 30px 8%;
+    padding: 30px 5%;
     position: sticky;
     top: 0;
     background-color: var(--color-primaria-1);
@@ -30,6 +30,11 @@ header {
     display: flex;
     list-style: none;
     gap: 30px
+}
+
+#nav_list .invisivel{
+    position: relative;
+    right: 30px;
 }
 
 .nav-item a {

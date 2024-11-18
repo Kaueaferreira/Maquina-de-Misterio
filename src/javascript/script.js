@@ -38,9 +38,40 @@ $(document).ready(function() {
         $(navItems[activeSecctionIndex]).addClass('active');
     });
 
-    ScrollReveal().reveal('#cta', {
+    ScrollReveal().reveal('#cta',{
         origin: 'left', 
         durantion: 2000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#cta-2',{
+        origin: 'right', 
+        durantion: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#banner',{
+        origin: 'right', 
+        durantion: 2000,
+        distance: '90%'
+    });
+
+    ScrollReveal().reveal('#banner-min1',{
+        origin: 'right', 
+        durantion: 2000,
+        distance: '90%'
+    });
+
+    ScrollReveal().reveal('#banner-2',{
+        origin: 'left', 
+        durantion: 20000,
+        distance: '90%'
+    });
+
+    ScrollReveal().reveal('.item-fun',{
+        origin: 'left', 
+        durantion: 20000,
+        distance: '90%'
+    });
+    
 });

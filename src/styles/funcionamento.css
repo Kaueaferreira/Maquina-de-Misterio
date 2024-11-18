@@ -3,15 +3,16 @@
 #funcionamento {
     margin-top: 30px;
     display: flex;
-    min-height: calc(100vh-91px);
+    min-height: 100vh;
     position: relative;
     margin: 0 auto;
-    height: 0 auto;
+    height: 100%;
+    padding: 10px;
 }
 
 .title3 {
-    padding-top: 120px;
-    font-size: 4.5rem;
+    padding-top: 0px;
+    font-size: 4.4rem;
     color: var(--color-neutral-9);
     text-align: center;
 }
@@ -22,6 +23,8 @@
 
 .description-3 {
     font-size: 1.4rem;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 40px;
     padding-bottom: 20px;
     color: var(--color-neutral-9);
@@ -34,6 +37,8 @@
     padding: 30px;
 }
 
+
+
 .cta-3 ul {
 
     list-style: none;
@@ -45,13 +50,89 @@
     padding: 5px;
 }
 
-.div-lateral{
-    min-width: calc(100vh-91px);
+.content-fun {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 48px;
-    margin: 0 auto;
-    padding-bottom: 30px;
+    gap: 40px;
+    padding: 20px;
 }
 
+.item-fun {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; /* Limita a largura total */
+    max-width: 1200px; /* Limita o tamanho máximo */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-fun img {
+    width: 100%; /* Ajusta a largura da imagem */
+    height: auto;
+    object-fit: cover; /* Garante que a imagem não distorça */
+    max-height: 300px; /* Limita a altura das imagens */
+    border-radius: 8px;
+}
+
+.text-fun {
+    width: 70%; /* Define a largura do texto */
+    padding: 10px;
+}
+
+
+.text-fun p {
+    font-size: 16px;
+}
+
+.fig{
+    font-size: 1.3rem;
+    color: var(--color-neutral-9);
+}
+
+@media (max-width: 1000px) {
+    .title3 {
+        padding-top: 0px;
+        font-size: 3rem;
+        color: var(--color-neutral-9);
+        text-align: center;
+    }
+
+    .description-3 {
+        font-size: 1.2rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: var(--color-neutral-9);
+        text-align: center;
+    }
+
+    .content-fun{
+        padding: 0;
+    }
+    
+    .item-fun {
+        flex-direction: column-reverse; /* Inverte a ordem: texto fica acima da imagem */
+        align-items: center; /* Centraliza o conteúdo */
+        padding: 0;
+    }
+
+    .item-fun img {
+        width: 80%; /* Ajusta a largura da imagem em telas menores */
+        max-height: 250px; /* Ajusta a altura da imagem */
+        margin-top: 10px; /* Adiciona espaço entre o texto e a imagem */
+        margin-left: auto;
+        margin-right: auto; /* Centraliza a imagem horizontalmente */
+    }
+
+    .text-fun {
+        width: 80%; /* Ajusta a largura do texto em telas menores */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    figcaption {
+        font-size: 12px; /* Ajusta o tamanho da legenda em telas menores */
+    }
+}
