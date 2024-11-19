@@ -6,16 +6,20 @@
     text-align: center;
     font-size: 5rem;
     padding-bottom: 20px;
+    padding-top: 100px;
 }
 
 #p-grande{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
     padding-bottom: 20px;
     text-align: center;
 }
 
+.distanciamento{
+    padding-bottom: 50px;
+}
 
 #equipes{
     min-width: calc(100vh-91px);
@@ -25,8 +29,7 @@
     gap: 48px;
     margin: 0 auto;
 }
-
-#equipes ul{
+ul{
     list-style: none;
 }
 
@@ -36,25 +39,14 @@
     height: 400%;
 }
 
-.imagem-aolado{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%; /* Limita a largura total */
-    max-width: 1200px; /* Limita o tamanho máximo */
-    background-color: #f9f9f9;
-    padding: 20px;
-    padding-bottom: 200px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.img{
+    position: relative;
+    left: 10%;
 }
 
-.imagem-aolado img{
-    width: 100%; /* Ajusta a largura da imagem */
-    height: auto;
-    object-fit: cover; /* Garante que a imagem não distorça */
-    max-height: 300px; /* Limita a altura das imagens */
-    border-radius: 8px;
+.img-1{
+    position: relative;
+    left: 4%;
 }
 
 .membro{
@@ -66,4 +58,63 @@
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     left: 0%;
+}
+
+.membro p{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.membros{
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.funcao-equipe strong {
+    padding-right: 7px;
+}
+
+.funcao-equipe{
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+
+
+@media (max-width: 1000px) {
+    #equipe{
+        padding: 0;
+    }
+    
+    #equipe .section-title{
+        text-align: center;
+        font-size: 3rem;
+        padding-bottom: 20px;
+        padding-top: 80px;
+    }
+
+    #p-grande{
+        font-size: 1.3rem;
+        padding-bottom: 50px;
+    }
+
+    .img{
+        left:0%;
+    }
+    .content-fun{
+        padding: 0;
+    }
+
+    .text-fun {
+        width: 90%; /* Define a largura do texto */
+        padding: 10px;
+
+    }
+
+    
+    .membro p{
+    font-size: 1rem;
+    }
+    
 }

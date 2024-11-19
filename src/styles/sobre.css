@@ -1,7 +1,13 @@
+#sobre1{
+    margin: 0 auto;
+    padding: 0;
+}
+
 #sobre {
     display: flex;
     align-items: center; /* Alinha os itens verticalmente */
     min-height: 100vh;
+    padding-top: 100px;
     padding: 0px; /* Ajuste o padding se necessário */
     padding-bottom: 50px;
     position: relative;
@@ -24,6 +30,8 @@
 #cta-2 .title-2{
     font-size: 4rem;
     color: var(--color-neutral-9);
+
+    padding-top: 100px;
 }
 
 #cta-2 .sub-title2{
@@ -136,7 +144,7 @@
         width: 70%;
         height: 400px;
         position: absolute;
-        top: 72%;
+        top: 74%;
         left: 50%;
         transform: translateX(-50%);
         border-radius: 40% 30% 20% 20%;
