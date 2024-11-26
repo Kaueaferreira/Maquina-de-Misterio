@@ -14,6 +14,14 @@ footer {
     align-items: center;
 }
 
+#footer_items img {
+    width: 90px;/* Ajusta a largura da imagem */
+    height: auto;
+    object-fit: cover; /* Garante que a imagem não distorça */
+    max-height: 300px; /* Limita a altura das imagens */
+    border-radius: 8px;
+}
+
 #copyright {
     color: var(--color-neutral-9);
     font-weight: 500;

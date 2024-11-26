@@ -18,6 +18,10 @@
     color: var(--color-primaria-6);
 }
 
+.foto h3 {
+    padding: 20px;
+}
+
 #galeria{
     display: flex;
     flex-direction: column;
