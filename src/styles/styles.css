@@ -43,6 +43,11 @@ section {
     background-color: var(--color-primaria-3);
 }
 
+.nav-item:hover {
+    background-color: var(--color-primaria-2);
+    color: white;
+}
+
 .section-title{
     color: var(--color-primaria-6);
     font-size: 1.5633em;
