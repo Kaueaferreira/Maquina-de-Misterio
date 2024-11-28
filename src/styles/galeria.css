@@ -19,13 +19,12 @@
 }
 
 .custom-video {
-    max-width: 90%; /* Ajusta o tamanho para 90% da largura do container */
-    width: 400px;   /* Define um tamanho fixo menor (opcional) */
-    height: auto;   /* Mantém a proporção */
+    max-width: 80%; /* Ajusta para ocupar no máximo 80% da largura do container */
+    width: 350px;   /* Define uma largura fixa menor */
+    height: auto;   /* Mantém as proporções */
     display: block;
-    margin: 0 auto; /* Centraliza o vídeo */
+    margin: 0 auto; /* Centraliza o vídeo na página */
 }
-
 .foto h3 {
     padding: 20px;
 }
@@ -75,5 +74,12 @@
         flex: none; 
         width: 100%; 
         margin-bottom: 20px; 
+    }
+    .custom-video {
+        max-width: 80%; /* Ajusta para ocupar no máximo 80% da largura do container */
+        width: 250px;   /* Define uma largura fixa menor */
+        height: auto;   /* Mantém as proporções */
+        display: block;
+        margin: 0 auto; /* Centraliza o vídeo na página */
     }
 }
