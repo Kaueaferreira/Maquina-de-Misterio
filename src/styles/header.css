@@ -37,6 +37,11 @@ header {
     right: 30px;
 }
 
+.btn-default a {
+    color: var(--color-primaria-1);
+    text-decoration: none;
+}
+
 .nav-item a {
     text-decoration: none;
     color: #1d1d1dad ;

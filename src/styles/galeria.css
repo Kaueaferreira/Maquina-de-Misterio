@@ -18,6 +18,14 @@
     color: var(--color-primaria-6);
 }
 
+.custom-video {
+    max-width: 90%; /* Ajusta o tamanho para 90% da largura do container */
+    width: 400px;   /* Define um tamanho fixo menor (opcional) */
+    height: auto;   /* Mantém a proporção */
+    display: block;
+    margin: 0 auto; /* Centraliza o vídeo */
+}
+
 .foto h3 {
     padding: 20px;
 }

@@ -164,3 +164,20 @@
     }
 }
 
+@media screen and (max-width: 500px)
+{  
+    .shape-min2 {
+        display: block;
+        background-color: var(--color-primaria-2);
+        width:90%;
+        height: 400px;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 40% 30% 20% 20%;
+        z-index: 1;
+        max-width: 1000px;
+        max-height: 800px;
+    }
+}
