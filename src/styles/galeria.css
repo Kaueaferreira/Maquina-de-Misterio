@@ -18,13 +18,22 @@
     color: var(--color-primaria-6);
 }
 
-.custom-video {
-    max-width: 80%; /* Ajusta para ocupar no máximo 80% da largura do container */
-    width: 350px;   /* Define uma largura fixa menor */
-    height: auto;   /* Mantém as proporções */
-    display: block;
-    margin: 0 auto; /* Centraliza o vídeo na página */
+.video-container {
+    padding: 15px; /* Espaçamento interno */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    border: 2px solid #ccc; /* Borda ao redor do vídeo */
+    border-radius: 10px; /* Arredondar os cantos */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    display: inline-block; /* Ajusta ao tamanho do vídeo */
+    margin: 0 auto; /* Centraliza o container */
 }
+
+.custom-video {
+    display: block;
+    max-width: 100%; /* Garante que o vídeo se ajuste ao container */
+    height: auto;
+}
+
 .foto h3 {
     padding: 20px;
 }
